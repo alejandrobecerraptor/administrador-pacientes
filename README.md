@@ -1,4 +1,4 @@
-# Aprendiendo React desde 0
+# Administrador de Pacientes
 
 si quieres crear un proyecto con ReactJs te recomiendo que visites este link [Create React App](https://github.com/facebook/create-react-app).
 
