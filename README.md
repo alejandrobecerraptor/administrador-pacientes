@@ -11,7 +11,7 @@ del proyecto y alli lo encontraras!.
 
 Facil primero lo clonas con este comando:
 
-### `git clone https://github.com/alejandrobecerraptor/React-Basicos.git`
+### `git clone https://github.com/alejandrobecerraptor/administrador-pacientes.git`
 
 Despues de eso te toca descargar las dependencias con:
 
