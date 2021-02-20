@@ -25,11 +25,24 @@ const Formulario = () => {
     //extraer valores de la cita.
     const {mascota,propietario,fecha,hora,sintomas} = cita;
 
+    //cuando el usuario presione el boton
+    const submitCita = e => {
+        e.preventDefault(); 
+        
+        // validacion del form
+
+        //asignar una ID
+
+        //crear la cita
+
+        //Reiniciar el form
+    }
+
     return ( 
         <Fragment>
             <h2>Crear Cita</h2>
 
-            <form>
+            <form onSubmit={submitCita}>
                 <label>Nombre Mascota</label>
                 <input
                     type="text"
