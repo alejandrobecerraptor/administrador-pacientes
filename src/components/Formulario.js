@@ -11,6 +11,10 @@ const Formulario = () => {
         sintomas:'',
     }); 
 
+    //state para el error de la validacion de formularios
+
+    const [ error, actualizarError] = useState(false);
+
     //funcion que se ejecuta cada que un usuario escribe en un input
 
     const actualizarState = e => {
@@ -30,7 +34,11 @@ const Formulario = () => {
         e.preventDefault(); 
         
         // validacion del form
-
+        if(mascota.trim() == '' || propietario.trim() == '' || fecha.trim() == '' || hora.trim() == '' || sintomas.trim() == ''){
+            actualizarError(true);
+            return;
+        }
+        actualizarError(false);
         //asignar una ID
 
         //crear la cita
@@ -41,7 +49,7 @@ const Formulario = () => {
     return ( 
         <Fragment>
             <h2>Crear Cita</h2>
-
+            {error ? <p className="alerta-error">Todos los campos son Obligatorios</p> : null}
             <form onSubmit={submitCita}>
                 <label>Nombre Mascota</label>
                 <input
