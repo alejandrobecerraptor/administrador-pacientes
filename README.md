@@ -16,7 +16,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 Facil primero lo clonas con este comando:
 
-## `git clone https://github.com/alejandrobecerraptor/proyecto-presupuesto-semanal.git`
+## `git clone https://github.com/alejandrobecerraptor/administrador-pacientes.git`
 
 _Despues de eso te toca descargar las dependencias con:_ ⚙️
 
